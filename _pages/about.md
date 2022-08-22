@@ -4,8 +4,8 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+Gangapuram is a Del Norte High School CSP Student. This website is powered by **[Del Norte High School](https://www.powayusd.com/en-US/Schools/HS/DNHS/Home)** [^1].
 
 
 
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+[^1]:a public school in San Diego, California. 
