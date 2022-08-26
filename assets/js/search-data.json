@@ -13,10 +13,10 @@
   
     
         ,"post1": {
-            "title": "Title",
-            "content": "import getpass, sys def question_and_answer(prompt): print(&quot;Question: &quot; + prompt) msg = input() print(&quot;Answer: &quot; + msg) def question_with_response(prompt): print(&quot;Question: &quot; + prompt) msg = input() return msg def evaluate_answer(answer, response, correct): if response == answer: print(response + &quot; is correct!&quot;) correct += 1 else: print(response + &quot; is incorrect!&quot;) return correct questions = 3 correct = 0 print(&#39;Hello, &#39; + getpass.getuser() + &quot; running &quot; + sys.executable) print(&quot;You will be asked &quot; + str(questions) + &quot; questions.&quot;) question_and_answer(&quot;Are you ready to take a test?&quot;) rsp = question_with_response(&quot;Which key word in Python is used to define a function?&quot;) correct = evaluate_answer(&quot;def&quot;, rsp, correct) print(correct) rsp = question_with_response(&quot;What is a synonym for a procedure?&quot;) correct = evaluate_answer(&quot;function&quot;, rsp, correct) print(correct) rsp = question_with_response(&quot;What do two or more lines of code form?&quot;) correct = evaluate_answer(&quot;sequence&quot;, rsp, correct) print(correct) print(getpass.getuser() + &quot; you scored &quot; + str(correct) +&quot;/&quot; + str(questions)) . Hello, SreejaGangapuram running /usr/local/bin/python3 You will be asked 3 questions. Question: Are you ready to take a test? Answer: Question: Which key word in Python is used to define a function? is incorrect! 0 Question: What is a synonym for a procedure? is incorrect! 0 Question: What do two or more lines of code form? markdown is incorrect! 0 SreejaGangapuram you scored 0/3 .",
-            "url": "https://sreejagangapuram.github.io/Sreeja-Gangapuram/2022/08/25/quiz-notebook.html",
-            "relUrl": "/2022/08/25/quiz-notebook.html",
+            "title": "Vocabulary/Key Learning Quiz",
+            "content": "import getpass, sys def question_and_answer(prompt): print(&quot;Question: &quot; + prompt) msg = input() print(&quot;Answer: &quot; + msg) def question_with_response(prompt): print(&quot;Question: &quot; + prompt) msg = input() return msg def evaluate_answer(answer, response, correct): if response == answer: print(response + &quot; is correct!&quot;) correct += 1 else: print(response + &quot; is incorrect!&quot;) return correct questions = 3 correct = 0 print(&#39;Hello, &#39; + getpass.getuser() + &quot; running &quot; + sys.executable) print(&quot;You will be asked &quot; + str(questions) + &quot; questions.&quot;) question_and_answer(&quot;Are you ready to take a test?&quot;) rsp = question_with_response(&quot;Which key word in Python is used to define a function?&quot;) correct = evaluate_answer(&quot;def&quot;, rsp, correct) print(correct) rsp = question_with_response(&quot;What is a synonym for a procedure?&quot;) correct = evaluate_answer(&quot;function&quot;, rsp, correct) print(correct) rsp = question_with_response(&quot;What do two or more lines of code form?&quot;) correct = evaluate_answer(&quot;sequence&quot;, rsp, correct) print(correct) print(getpass.getuser() + &quot; you scored &quot; + str(correct) +&quot;/&quot; + str(questions)) . Hello, SreejaGangapuram running /usr/local/bin/python3 You will be asked 3 questions. Question: Are you ready to take a test? Answer: yes Question: Which key word in Python is used to define a function? def is correct! 1 Question: What is a synonym for a procedure? function is correct! 2 Question: What do two or more lines of code form? sequence is correct! 3 SreejaGangapuram you scored 3/3 .",
+            "url": "https://sreejagangapuram.github.io/Sreeja-Gangapuram/2022/08/25/quiz-notebook1.html",
+            "relUrl": "/2022/08/25/quiz-notebook1.html",
             "date": " • Aug 25, 2022"
         }
         
@@ -46,39 +46,6 @@
   
     
         ,"post4": {
-            "title": "Vocabulary/Key Learning Quiz",
-            "content": "import getpass, sys def question_and_answer(prompt): print(&quot;Question: &quot; + prompt) msg = input() print(&quot;Answer: &quot; + msg) def question_with_response(prompt): print(&quot;Question: &quot; + prompt) msg = input() return msg def evaluate_answer(answer, response, correct): if response == answer: print(response + &quot; is correct!&quot;) correct += 1 else: print(response + &quot; is incorrect!&quot;) return correct questions = 3 correct = 0 print(&#39;Hello, &#39; + getpass.getuser() + &quot; running &quot; + sys.executable) print(&quot;You will be asked &quot; + str(questions) + &quot; questions.&quot;) question_and_answer(&quot;Are you ready to take a test?&quot;) rsp = question_with_response(&quot;Which key word in Python is used to define a function?&quot;) correct = evaluate_answer(&quot;def&quot;, rsp, correct) print(correct) rsp = question_with_response(&quot;What is a synonym for a procedure?&quot;) correct = evaluate_answer(&quot;function&quot;, rsp, correct) print(correct) rsp = question_with_response(&quot;What do two or more lines of code form?&quot;) correct = evaluate_answer(&quot;sequence&quot;, rsp, correct) print(correct) print(getpass.getuser() + &quot; you scored &quot; + str(correct) +&quot;/&quot; + str(questions)) . Hello, SreejaGangapuram running /usr/local/bin/python3 You will be asked 3 questions. Question: Are you ready to take a test? Answer: yes Question: Which key word in Python is used to define a function? def is correct! 1 Question: What is a synonym for a procedure? function is correct! 2 Question: What do two or more lines of code form? sequence is correct! 3 SreejaGangapuram you scored 3/3 .",
-            "url": "https://sreejagangapuram.github.io/Sreeja-Gangapuram/2020/02/20/quiz-notebook1.html",
-            "relUrl": "/2020/02/20/quiz-notebook1.html",
-            "date": " • Feb 20, 2020"
-        }
-        
-    
-  
-    
-        ,"post5": {
-            "title": "Vocabulary/Key Learning Quiz",
-            "content": "import getpass, sys def question_and_answer(prompt): print(&quot;Question: &quot; + prompt) msg = input() print(&quot;Answer: &quot; + msg) def question_with_response(prompt): print(&quot;Question: &quot; + prompt) msg = input() return msg questions = 3 correct = 0 print(&#39;Hello, &#39; + getpass.getuser() + &quot; running &quot; + sys.executable) print(&quot;You will be asked &quot; + str(questions) + &quot; questions.&quot;) question_and_answer(&quot;Are you ready to take a test?&quot;) rsp = question_with_response(&quot;What is the key word to define a function?&quot;) if rsp == &quot;def&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;What command in this example is used to evaluate a response?&quot;) if rsp == &quot;if&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) rsp = question_with_response(&quot;Each &#39;if&#39; command contains an &#39;_________&#39; to determine a true or false condition?&quot;) if rsp == &quot;expression&quot;: print(rsp + &quot; is correct!&quot;) correct += 1 else: print(rsp + &quot; is incorrect!&quot;) print(getpass.getuser() + &quot; you scored &quot; + str(correct) +&quot;/&quot; + str(questions)) .",
-            "url": "https://sreejagangapuram.github.io/Sreeja-Gangapuram/2020/02/20/quiz-notebook.html",
-            "relUrl": "/2020/02/20/quiz-notebook.html",
-            "date": " • Feb 20, 2020"
-        }
-        
-    
-  
-    
-        ,"post6": {
-            "title": "Jupyter Notebook 1 - Print Command Try-out",
-            "content": "print(&quot;Hello from Sreeja..&quot;) . Hello from Sreeja.. .",
-            "url": "https://sreejagangapuram.github.io/Sreeja-Gangapuram/2020/02/20/first-markup-notebook1.html",
-            "relUrl": "/2020/02/20/first-markup-notebook1.html",
-            "date": " • Feb 20, 2020"
-        }
-        
-    
-  
-    
-        ,"post7": {
             "title": "Jupyter Notebook 1 - Print Command Try-out",
             "content": "print(&quot;Hello from Sreeja..&quot;) . Hello from Sreeja.. .",
             "url": "https://sreejagangapuram.github.io/Sreeja-Gangapuram/2020/02/20/first-markup-notebook.html",
@@ -89,7 +56,7 @@
     
   
     
-        ,"post8": {
+        ,"post5": {
             "title": "An Example Markdown Post",
             "content": "Example Markdown Post . Basic setup . Jekyll requires blog post files to be named according to the following format: . YEAR-MONTH-DAY-filename.md . Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and filename is whatever file name you choose, to remind yourself what this post is about. .md is the file extension for markdown files. . The first line of the file should start with a single hash character, then a space, then your title. This is how you create a “level 1 heading” in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line ## File names above. . Basic formatting . You can use italics, bold, code font text, and create links. Here’s a footnote 1. Here’s a horizontal rule: . . Lists . Here’s a list: . item 1 | item 2 | . And a numbered list: . item 1 | item 2 | Boxes and stuff . This is a quotation . . You can include alert boxes …and… . . You can include info boxes Images . . Code . You can format text and code per usual . General preformatted text: . # Do a thing do_thing() . Python code and output: . # Prints &#39;2&#39; print(1+1) . 2 . Formatting text as shell commands: . echo &quot;hello world&quot; ./some_script.sh --option &quot;value&quot; wget https://example.com/cat_photo1.png . Formatting text as YAML: . key: value - another_key: &quot;another value&quot; . Tables . Column 1 Column 2 . A thing | Another thing | . Tweetcards . Altair 4.0 is released! https://t.co/PCyrIOTcvvTry it with: pip install -U altairThe full list of changes is at https://t.co/roXmzcsT58 ...read on for some highlights. pic.twitter.com/vWJ0ZveKbZ . &mdash; Jake VanderPlas (@jakevdp) December 11, 2019 Footnotes . This is the footnote. &#8617; . |",
             "url": "https://sreejagangapuram.github.io/Sreeja-Gangapuram/markdown/2020/01/14/test-markdown-post.html",
