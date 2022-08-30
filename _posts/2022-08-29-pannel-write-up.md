@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-description: My notes insights from the CS Alumnai Panel.  
+description: My notes and insights from the CS Alumnai Panel.  
 categories: [markdown]
 title: CS Alumnai Panel Write-up - Sreeja Gangapuram 
 ---
