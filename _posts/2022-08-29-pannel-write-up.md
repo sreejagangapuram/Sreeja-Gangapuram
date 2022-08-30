@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-description: My note and insights from the CS Alumnai Panel.  
+description: My notes insights from the CS Alumnai Panel.  
 categories: [markdown]
 title: CS Alumnai Panel Write-up - Sreeja Gangapuram 
 ---
@@ -11,11 +11,11 @@ During the CS Alumani panel, I was exposed to possible majors and opportunities 
 ## Possible Majors
 There are a lot of majors that I can explore in college that involve computer science. So learning the basics of programming will be beneficial to me. Here are some examples of majors and combination of majors.
 
-    - Computer Science 
-    - Psychology + Computer science 
-    - Cognitive science 
-    - Mechanical Engineering
-    - Can switch majors (example - aerospace to cognitive science) 
+- Computer Science 
+- Psychology + Computer science 
+- Cognitive science 
+- Mechanical Engineering
+- Can switch majors (example - aerospace to cognitive science) 
 
 My main takeway from these examples of majors is that I don't have to major in traditional computer science. If I have an intrest in another subject, I can try finding a major combining computer science and my interest. 
 
