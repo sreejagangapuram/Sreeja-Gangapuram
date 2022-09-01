@@ -17,7 +17,8 @@ The theme changes reflected in my website:
 <img src="{{site.baseurl}}/images/haha3.png" width="1000" height="600"> 
 
 ## The Problems 
-- The menu bar went away and all of my pages became crammed on the upper left side. 
-- The space between the box of a post and the end of the page is very small. The length of the posts is taking up the entire length of the screen. 
+- The menu bar of my website went away and my pages on my menu disappeared. 
+- A large area of my blog is taken up by the blue/green bar and my name. 
+- The box around each individual post went away and all of the posts are listed as bullet points. 
 - A change in font. 
 
