@@ -10,7 +10,8 @@ title: Weekly Updates
      <th>Notes</th>
      <th>Posts</th>
      <th>Grades</th>
-
+    <tr> 
+    
     <tr>
         <td>
             0 😱
