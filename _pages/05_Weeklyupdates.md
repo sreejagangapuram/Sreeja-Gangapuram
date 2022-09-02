@@ -7,12 +7,9 @@ title: Weekly Updates
 <table>
     <tr>
      <th>Week</th>
-     <th>Sprint</th>
-     <th>Human Prep</th>
-     <th>AP Test Prep</th>
-     <th>Career Tech</th>
-     <th>Canvas</th>
-    </tr>
+     <th>Notes</th>
+     <th>Posts</th>
+     <th>Grades</th>
 
     <tr>
         <td>
