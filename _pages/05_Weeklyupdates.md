@@ -16,7 +16,7 @@ title: Weekly Updates
 
     <tr>
         <td>
-            3
+            0 😱
         </td>
         <td><a href="{{site.baseurl}}/week/3">Creative Development</a></td>
         <td>
@@ -35,7 +35,7 @@ title: Weekly Updates
 
     <tr>
         <td>
-            2 🚧
+            1 😭
         </td>
         <td>
             <a href="{{site.baseurl}}/week/2">Data Abstraction</a>
@@ -59,7 +59,7 @@ title: Weekly Updates
 
     <tr>
         <td>
-            1 💰
+            2 😐
         </td>
         <td>
             <a href="{{site.baseurl}}/week/1">Introduction to Python</a>
@@ -84,7 +84,7 @@ title: Weekly Updates
     
     <tr>
         <td>
-            0 💰
+            3 😃
         </td>
         <td><a href="{{site.baseurl}}/week/0">Tool Setup</a></td>
         <td>
