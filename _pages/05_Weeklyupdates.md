@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /weeklyupdates
-title: Weekly Class Updates
+title: Weekly Updates
 ---
 
 <table>
