@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: Sreeja's First Markdown Post
-categories: [markdown]
+categories: [markdown, week0]
 title: First Post!
 ---
 # This is my First Markdown Post :)
