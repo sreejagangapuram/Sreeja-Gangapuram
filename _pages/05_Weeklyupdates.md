@@ -7,9 +7,9 @@ title: Weekly Updates
 <table>
     <tr>
      <th>Week</th>
-     <th>Notes</th>
-     <th>Posts</th>
+     <th>Issues</th>
      <th>Grades</th>
+     <th>Notebooks/Posts</th>
     <tr> 
     
     <tr>
@@ -28,7 +28,6 @@ title: Weekly Updates
             <br>
             <a href="{{site.baseurl}}/techtalk/applab">Program Design with AppLab</a>
         </td>
-        <td>TBD</td>
     </tr>
 
     <tr>
