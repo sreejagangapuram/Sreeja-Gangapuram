@@ -23,11 +23,6 @@ title: Weekly Updates
         <td>
             <a href="{{site.baseurl}}/collegeboard/create">Create Performance Task</a>
         </td>
-        <td>
-            <a href="{{site.baseurl}}/techtalk/javascript">JavaScript Tutorial</a>
-            <br>
-            <a href="{{site.baseurl}}/techtalk/applab">Program Design with AppLab</a>
-        </td>
     </tr>
 
     <tr>
