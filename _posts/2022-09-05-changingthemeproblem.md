@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: A screen shot of me temporarily changing the remote theme, and analyzed problems in sight after doing so. Bloging my findings.
-categories: [markdown]
+categories: [markdown, week2]
 title: Changing Remote Theme Problems
 ---
 

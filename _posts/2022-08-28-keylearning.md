@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: Everything I learned this week. 
-categories: [markdown]
+categories: [markdown, week1]
 title: Key Learning and Progress - Week of August 22, 2022
 ---
 # Week of August 22, 2022 Key Learning in One Spot

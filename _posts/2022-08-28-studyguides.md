@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: An ongoing list of topics to review for each of my classes. 
-categories: [markdown]
+categories: [markdown, week1]
 title: Study Guides for Each Class
 ---
 # Study Guide of Topics To Review by order of Appearance
