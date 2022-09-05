@@ -10,7 +10,7 @@ title: Weekly Updates
      <th>Issues</th>
      <th>Grades</th>
      <th>Notebooks/Posts</th>
-    <tr> 
+    </tr> 
     
     <tr>
         <td>
@@ -22,7 +22,7 @@ title: Weekly Updates
         </td>
         <td>
             <a href="{{site.baseurl}}/collegeboard/create">Create Performance Task</a>
-        </td>
+        <td>
     </tr>
 
     <tr>
@@ -39,14 +39,6 @@ title: Weekly Updates
         <td>
             <a href="{{site.baseurl}}/collegeboard/python_lists">Python Lists and Dictionaries</a>
         </td>
-        <td>
-            <a href="{{site.baseurl}}/techtalk/html">HTML Fragments and Layouts</a>
-        </td>
-        <td>
-            <a href="{{apcsp}}/points/2">Data Abstraction Points</a>
-            <br>
-            <a href="{{issues}}/22">Review Tickets</a>
-        </td>
     </tr>
 
     <tr>
@@ -62,16 +54,6 @@ title: Weekly Updates
         <td>
             <a href="{{site.baseurl}}/collegeboard/python">Hello to Python</a>
         </td>
-        <td>
-            <a href="{{site.baseurl}}/techtalk/bash">Bash and Checks</a>
-            <br>
-            <a href="{{site.baseurl}}/techtalk/fastpages">Fastpages, Jupyter Notebooks, Markdown</a>     
-        </td>
-        <td>
-            <a href="{{canvas}}/2296689">Intro Python, Jupyter, Fastpages</a>
-            <br>
-            <a href="{{issues}}/21">Review Tickets</a>
-        </td>
     </tr>
     
     <tr>
@@ -85,15 +67,5 @@ title: Weekly Updates
         <td>
             <a href="{{site.baseurl}}/collegeboard/pseudo_code">Pseudo Code</a>
         </td>
-        <td>
-            <a href="{{site.baseurl}}/techtalk/tools">Tools and Equipment</a>
-        </td>
-        <td>
-
-            <a href="{{canvas}}/2206627">Tools Setup</a>
-            <br>
-            <a href="{{issues}}/11">Review Tickets</a>
-        </td>
     </tr>
-    
 </table>
