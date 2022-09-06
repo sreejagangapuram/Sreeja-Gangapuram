@@ -13,14 +13,12 @@
 <link rel="canonical" href="https://sreejagangapuram.github.io/Sreeja-Gangapuram/collegeboard/python_lists" />
 <meta property="og:url" content="https://sreejagangapuram.github.io/Sreeja-Gangapuram/collegeboard/python_lists" />
 <meta property="og:site_name" content="・❥・Sreeja Gangapuram" />
-<meta property="og:image" content="https://sreejagangapuram.github.io/Sreeja-Gangapuram/images/python_lists.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-09-06T00:00:00-05:00" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://sreejagangapuram.github.io/Sreeja-Gangapuram/images/python_lists.png" />
+<meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Python Lists, Dictionaries, Iteration Hacks" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-06T00:00:00-05:00","datePublished":"2022-09-06T00:00:00-05:00","description":"An introduction to Data Abstraction using Python Lists [] and Python Dictionaries {}. Week 2 Hacks.","headline":"Python Lists, Dictionaries, Iteration Hacks","image":"https://sreejagangapuram.github.io/Sreeja-Gangapuram/images/python_lists.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://sreejagangapuram.github.io/Sreeja-Gangapuram/collegeboard/python_lists"},"url":"https://sreejagangapuram.github.io/Sreeja-Gangapuram/collegeboard/python_lists"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-06T00:00:00-05:00","datePublished":"2022-09-06T00:00:00-05:00","description":"An introduction to Data Abstraction using Python Lists [] and Python Dictionaries {}. Week 2 Hacks.","headline":"Python Lists, Dictionaries, Iteration Hacks","mainEntityOfPage":{"@type":"WebPage","@id":"https://sreejagangapuram.github.io/Sreeja-Gangapuram/collegeboard/python_lists"},"url":"https://sreejagangapuram.github.io/Sreeja-Gangapuram/collegeboard/python_lists"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Sreeja-Gangapuram/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://sreejagangapuram.github.io/Sreeja-Gangapuram/feed.xml" title="・❥・Sreeja Gangapuram" /><link rel="shortcut icon" type="image/x-icon" href="/Sreeja-Gangapuram/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -81,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      8 min read
+      9 min read
     
 </span></p>
 
@@ -129,7 +127,8 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h3"><a href="#Lists-and-Dictionaries">Lists and Dictionaries </a>
 <ul>
 <li class="toc-entry toc-h4"><a href="#Randomized-Order-Selection">Randomized Order Selection </a></li>
-<li class="toc-entry toc-h4"><a href="#Print-in-Reversed-Order">Print in Reversed Order </a></li>
+<li class="toc-entry toc-h4"><a href="#Print-in-Reversed-Order-With-Function">Print in Reversed Order With Function </a></li>
+<li class="toc-entry toc-h4"><a href="#Print-in-Reversed-Order-Without-using-reverse()-Function">Print in Reversed Order Without using reverse() Function </a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h3"><a href="#List-and-Dictionary-Purpose">List and Dictionary Purpose </a></li>
@@ -289,8 +288,8 @@ A Good Book reccomendation is The Spanish Love Deception:)
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Print-in-Reversed-Order">
-<a class="anchor" href="#Print-in-Reversed-Order" aria-hidden="true"><span class="octicon octicon-link"></span></a>Print in Reversed Order<a class="anchor-link" href="#Print-in-Reversed-Order"> </a>
+<h4 id="Print-in-Reversed-Order-With-Function">
+<a class="anchor" href="#Print-in-Reversed-Order-With-Function" aria-hidden="true"><span class="octicon octicon-link"></span></a>Print in Reversed Order With Function<a class="anchor-link" href="#Print-in-Reversed-Order-With-Function"> </a>
 </h4>
 </div>
 </div>
@@ -319,6 +318,61 @@ A Good Book reccomendation is The Spanish Love Deception:)
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
 Reversed List: ['Confetti', 'Chocolate Chip', 'Vanilla', 'Red Velvet', 'Chocolate']
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Print-in-Reversed-Order-Without-using-reverse()-Function">
+<a class="anchor" href="#Print-in-Reversed-Order-Without-using-reverse()-Function" aria-hidden="true"><span class="octicon octicon-link"></span></a>Print in Reversed Order Without using reverse() Function<a class="anchor-link" href="#Print-in-Reversed-Order-Without-using-reverse()-Function"> </a>
+</h4>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cakes</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Chocolate"</span><span class="p">,</span> <span class="s2">"Red Velvet"</span><span class="p">,</span> <span class="s2">"Vanilla"</span><span class="p">,</span> <span class="s2">"Chocolate Chip"</span><span class="p">,</span> <span class="s2">"Confetti"</span><span class="p">]</span>
+<span class="c1">#initializing i with the length minus 1</span>
+<span class="n">i</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">cakes</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\n</span><span class="s1">Reversed List:'</span><span class="p">,</span> <span class="n">cakes</span><span class="p">)</span>
+<span class="c1">#checking that i is greater than or equal to 0. </span>
+<span class="k">while</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="nb">print</span><span class="p">(</span><span class="n">cakes</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+      <span class="c1">#decrementing by one each time</span>
+      <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">-</span><span class="mi">1</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+Reversed List: ['Chocolate', 'Red Velvet', 'Vanilla', 'Chocolate Chip', 'Confetti']
+Confetti
+Chocolate Chip
+Vanilla
+Red Velvet
+Chocolate
 </pre>
 </div>
 </div>
