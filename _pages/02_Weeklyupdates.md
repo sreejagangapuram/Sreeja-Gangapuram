@@ -3,7 +3,6 @@ layout: page
 permalink: /weeklyupdates
 title: Weekly Updates
 ---
-
 <table>
     <tr>
      <th>Week</th>
