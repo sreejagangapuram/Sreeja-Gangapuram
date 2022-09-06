@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      5 min read
+      7 min read
     
 </span></p>
 
@@ -132,8 +132,8 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h4"><a href="#Print-in-Reversed-Order">Print in Reversed Order </a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h3"><a href="#List-and-Dictionary-purpose">List and Dictionary purpose </a></li>
-<li class="toc-entry toc-h3"><a href="#For-loop">For loop </a></li>
+<li class="toc-entry toc-h3"><a href="#List-and-Dictionary-Purpose">List and Dictionary Purpose </a></li>
+<li class="toc-entry toc-h3"><a href="#For-Loop">For Loop </a></li>
 <li class="toc-entry toc-h3"><a href="#While-loop">While loop </a></li>
 <li class="toc-entry toc-h3"><a href="#Recursion">Recursion </a></li>
 </ul><!--
@@ -151,6 +151,12 @@ window.onload = wrap_img;
 <h3 id="Lists-and-Dictionaries">
 <a class="anchor" href="#Lists-and-Dictionaries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lists and Dictionaries<a class="anchor-link" href="#Lists-and-Dictionaries"> </a>
 </h3>
+<p>As a quick review we used variables in the introduction last week.  <mark>Variables all have a type</mark>: String, Integer, Float, List and Dictionary are some key types.  In Python, variables are given a type at assignment,  Types are important to understand and will impact operations, as we saw when we were required to user str() function in concatenation.</p>
+<ol>
+<li>Developers often think of variables as primitives or collections.  Look at this example and see if you can see hypothesize the difference between a primitive and a collection.  </li>
+<li>Take a minute and see if you can reference other elements in the list or other keys in the dictionary. Show output.</li>
+</ol>
+<p>Notes:</p>
 <ul>
 <li>Key Types of Variables: tring, Integer, Float, List and Dictionary. </li>
 <li>Difference between a primative and a collection: A primative type is a basic building block of programming. A collection requires objects for manipulation. </li>
@@ -220,24 +226,11 @@ age 15 &lt;class 'int'&gt;
 score 100.0 &lt;class 'float'&gt;
 
 langs ['Python', 'JavaScript', 'Java'] &lt;class 'list'&gt; length 3
+- langs[0] Python &lt;class 'str'&gt;
+
+person {'name': 'Sreeja Gangapuram', 'age': 15, 'score': 100.0, 'langs': ['Python', 'JavaScript', 'Java']} &lt;class 'dict'&gt; length 4
+- person["name"] Sreeja Gangapuram &lt;class 'str'&gt;
 </pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">IndexError</span>                                Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">/Users/SreejaGangapuram_1/vscode/Sreeja-Gangapuram/_notebooks/2022-09-06-InfoDB-pythonlists.ipynb Cell 3</span> in <span class="ansi-cyan-fg">&lt;cell line: 25&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell:/Users/SreejaGangapuram_1/vscode/Sreeja-Gangapuram/_notebooks/2022-09-06-InfoDB-pythonlists.ipynb#X10sZmlsZQ%3D%3D?line=22'&gt;23&lt;/a&gt;</span> langs = ["Python", "JavaScript", "Java"]
-<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell:/Users/SreejaGangapuram_1/vscode/Sreeja-Gangapuram/_notebooks/2022-09-06-InfoDB-pythonlists.ipynb#X10sZmlsZQ%3D%3D?line=23'&gt;24&lt;/a&gt;</span> print("langs", langs, type(langs), "length", len(langs))
-<span class="ansi-green-fg">---&gt; &lt;a href='vscode-notebook-cell:/Users/SreejaGangapuram_1/vscode/Sreeja-Gangapuram/_notebooks/2022-09-06-InfoDB-pythonlists.ipynb#X10sZmlsZQ%3D%3D?line=24'&gt;25&lt;/a&gt;</span> print("- langs[3]", langs[3], type(langs[3]))
-<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell:/Users/SreejaGangapuram_1/vscode/Sreeja-Gangapuram/_notebooks/2022-09-06-InfoDB-pythonlists.ipynb#X10sZmlsZQ%3D%3D?line=26'&gt;27&lt;/a&gt;</span> print()
-<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell:/Users/SreejaGangapuram_1/vscode/Sreeja-Gangapuram/_notebooks/2022-09-06-InfoDB-pythonlists.ipynb#X10sZmlsZQ%3D%3D?line=28'&gt;29&lt;/a&gt;</span> # variable of type dictionary (a group of keys and values)
-
-<span class="ansi-red-fg">IndexError</span>: list index out of range</pre>
 </div>
 </div>
 
@@ -281,7 +274,7 @@ langs ['Python', 'JavaScript', 'Java'] &lt;class 'list'&gt; length 3
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Book choices
-A Good Book reccomendation is A Good Girl's Guide to Murder:)
+A Good Book reccomendation is The Spanish Love Deception:)
 </pre>
 </div>
 </div>
@@ -338,13 +331,21 @@ Reversed List: ['Confetti', 'Chocolate Chip', 'Vanilla', 'Red Velvet', 'Chocolat
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="List-and-Dictionary-purpose">
-<a class="anchor" href="#List-and-Dictionary-purpose" aria-hidden="true"><span class="octicon octicon-link"></span></a>List and Dictionary purpose<a class="anchor-link" href="#List-and-Dictionary-purpose"> </a>
+<h3 id="List-and-Dictionary-Purpose">
+<a class="anchor" href="#List-and-Dictionary-Purpose" aria-hidden="true"><span class="octicon octicon-link"></span></a>List and Dictionary Purpose<a class="anchor-link" href="#List-and-Dictionary-Purpose"> </a>
 </h3>
+<p>Our society is being built on information.  <mark>List and Dictionaries are used to collect information</mark>.  Mostly, when information is collected it is formed into patterns.  As that pattern is established you will be able collect many instances of that pattern.</p>
 <ul>
 <li>List is used to collect many instances of a pattern</li>
 <li>Dictionary is used to define data patterns.</li>
 <li>Iteration is often used to process through lists.</li>
+</ul>
+<p>To start exploring more deeply into List, Dictionary and Iteration this example will explore constructing a List of people and cars.</p>
+<ul>
+<li>As we learned above, a List is a data type: class 'list'</li>
+<li>A <mark>'list' data type has the method '.append(expression)'</mark> that allows you to add to the list.  A class usually has extra method to support working with its objects/instances.</li>
+<li>In the example below,  the expression is appended to the 'list' is the data type: class 'dict'</li>
+<li>At the end, you see a fairly complicated data structure.  This is a <mark>list of dictionaries</mark>, or a collection of many similar data patterns.  The output looks similar to JavaScript Object Notation (JSON), Jekyll/GitHub pages yml files, FastPages Front Matter. As discussed we will see this key/value patter often, you will be required to understand this data structure and understand the parts.  Just believe it is peasy ;) and it will become so.</li>
 </ul>
 
 </div>
@@ -407,9 +408,11 @@ Reversed List: ['Confetti', 'Chocolate Chip', 'Vanilla', 'Red Velvet', 'Chocolat
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="For-loop">
-<a class="anchor" href="#For-loop" aria-hidden="true"><span class="octicon octicon-link"></span></a>For loop<a class="anchor-link" href="#For-loop"> </a>
+<h3 id="For-Loop">
+<a class="anchor" href="#For-Loop" aria-hidden="true"><span class="octicon octicon-link"></span></a>For Loop<a class="anchor-link" href="#For-Loop"> </a>
 </h3>
+<p>Managing data in Lists and Dictionaries is for the convenience of passing the data across the internet, to applications, or preparing it to be stored into a database.  It is a great way to exchange data between programs and programmers.  Exchange of data between programs includes the data type the method/function and the format of the data type.  These concepts are key to learning how to write functions, receive, and return data.  This process is often referred to as an <mark>Application Programming Interface (API)</mark>.</p>
+<p>Next, we will take the stored data and output it within our notebook.  There are multiple steps to this process...</p>
 <ul>
 <li>
 <mark>Preparing a function to format the data</mark>, the print_data() function receives a parameter called "d_rec" short for dictionary record.  It then references different keys within [] square brackets.   </li>
@@ -488,6 +491,9 @@ The Silent Patient
 <a class="anchor" href="#While-loop" aria-hidden="true"><span class="octicon octicon-link"></span></a>While loop<a class="anchor-link" href="#While-loop"> </a>
 </h3>
 <p>In coding, there are usually many ways to achieve the same result.  Defined are functions illustrating using index to reference records in a list, these methods are called a "while" loop and "recursion".</p>
+<ul>
+<li>The while_loop() function contains a while loop, "while i &lt; len(InfoDb):".  This counts through the elements in the list start at zero, and passes the record to print_data()</li>
+</ul>
 
 </div>
 </div>
