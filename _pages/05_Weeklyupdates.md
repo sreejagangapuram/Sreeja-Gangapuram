@@ -15,7 +15,7 @@ title: Weekly Updates
         <td>
             0 😱
         </td>
-        <td><a href={github.com}}//sreejagangapuram/Sreeja-Gangapuram/issues/2">Tools Setup Hacks</a></td>
+        <td><a href="https://github.com/sreejagangapuram/Sreeja-Gangapuram/issues/2">Tools Setup Hacks</a></td>
         <td>
             3/3
         </td>
@@ -26,12 +26,11 @@ title: Weekly Updates
             1 😭
         </td>
         <td>
-            <a href="{{site.baseurl}}/week/2">Data Abstraction</a>
+            <a href="https://github.com/sreejagangapuram/Sreeja-Gangapuram/issues/3">Week 1 Blog Update Hacks</a>
         </td>
         <td>
-            <a href="{{site.baseurl}}/collegeboard/anthony-and-sahil">Reflections on Computer Science</a>
-            <br/>
-            Alumni Panel (extra credit)        </td>
+            2.9/3
+        </td>
     </tr>
 
     <tr>
@@ -39,10 +38,10 @@ title: Weekly Updates
             2 😐
         </td>
         <td>
-            <a href="{{site.baseurl}}/week/1">Introduction to Python</a>
+            <a href="https://github.com/sreejagangapuram/Sreeja-Gangapuram/issues/5">Data Abstraction Hacks</a>
         </td>
         <td>
-            Table Visits
+            /3
         </td>
     </tr>
     
@@ -50,9 +49,10 @@ title: Weekly Updates
         <td>
             3 😃
         </td>
-        <td><a href="{{site.baseurl}}/week/0">Tool Setup</a></td>
         <td>
-            <a href="{{site.baseurl}}/collegeboard/history">Scoring History</a>
+            Will be updated soon. 
+        <td>
+            Will be updated soon. 
         </td>
     </tr>
 
