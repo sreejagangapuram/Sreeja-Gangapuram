@@ -16,7 +16,7 @@ title: Weekly Updates
         <td>
             0 😱
         </td>
-        <td><a href="{{site.baseurl}}/week/3">Creative Development</a></td>
+        <td><a href="{{https://github.com/sreejagangapuram/Sreeja-Gangapuram/issues/2}}/week/0">Tools Setup Hacks</a></td>
         <td>
             <a href="{{site.baseurl}}/collegeboard/bria">How I got a  5!</a>
         </td>
