@@ -3,8 +3,8 @@ layout: post
 description: My Planning For App Lab Quiz
 categories: [markdown, week3]
 title: App Lab Program Design Quiz Planning
-title: Preparing for the Create Performance Task Outline
 ---
+
 Basic Information about the Quiz: 
 Name of Quiz: Guess the Taylor Swift Album Cover 
 Number of Questions: 6
