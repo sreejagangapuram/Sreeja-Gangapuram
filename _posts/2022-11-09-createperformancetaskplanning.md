@@ -6,26 +6,40 @@ categories: [markdown, week3]
 title: Create Performance Task Outline/Planning
 ---
 ## App or Webpage Ideas Brainstorming
-- A study app: an app that allows students to organize/plan their homework tasks, tests, quizzes, due dates. It can also have a timer to keep them on track. 
+- A study app
 - A workout planner/tracker
+- Wordle Game 
 
-## Ideal App Idea
+## Wordle Game
+- Similar to the New York Times "Wordle" 
+- Normal mode: 
+    - 6 tries to guess 
+        - Blue: letters are in the word, not correct space
+        - Green: letters are in the word, and in the correct space
+        - Grey: letters are not in the word
+    - A word is five letters
+- Second mode: change number of letters, change allowed guesses, set a time limit, do specific genres or topics
+- Ideas to implement
+    - add hints: gives letters that are in the words, reveals one
+    - stats/scores after every few games
+    - clear the screen
+- Knowlege needed: webpage, user input, animations, keyboard
 
+## A Study App
+- Description
+    - An app that allows students to organize/plan their homework tasks, tests, quizzes, due dates
+- Aspects
+    - Have a timer to keep students on track for homework.
+        - Pomedero Technique
+    - Have a calender to be used as a planner. Add dates and days. Color code all classes. 
+    - A to-do list
+    - Motivational quotes
+    - A daily scheduler 
+    - A weekly scheduler 
+- Ideas to implement
+    - syncing with other apps, such as canvas. 
 
-## Aspects of the App Idea
-1. 
-2. 
-3. 
-
-## Questions to answer
-
-What are all the technical requirements for the project? 
-- Row 1: Program Purpose and Function
-- Row 2: Data Abstraction
-- Row 3: Managing Complexity
-- Row 4: Procedural Abstraction
-- Row 5: Algorithm Implementation
-- Row 6: Testing
+## Questions
 
 What can you design now?
 - I can start working on an outline. 
