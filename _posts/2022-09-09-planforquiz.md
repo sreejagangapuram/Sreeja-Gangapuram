@@ -5,6 +5,9 @@ description: My Planning For App Lab Quiz
 categories: [markdown, week3]
 title: App Lab Program Design Quiz Planning
 ---
+Link to Taylor Swift Album Quiz: https://studio.code.org/projects/applab/tEwjnY3zVAeOvhT2MAS3XhdlD-BZRaiut0blPH3dql0 
+
+An idea to work on if time allows, make a "pro mode" and make the questions more difficult. Make user enter the answer in, instead of having multiple choice questions. **edit: attempted this, but couldn't figure out how to get the enter and gettext() function to work. 
 
 ## Basic Information about the Quiz 
 Name of Quiz: Guess the Taylor Swift Album Cover.
@@ -41,3 +44,5 @@ Number of Questions: 3 in total.
   - "Your score is..."
   - Display score 
   - Back to Homepage Button
+
+*edit: used a variable to store the score. and incremented the variable each time. 

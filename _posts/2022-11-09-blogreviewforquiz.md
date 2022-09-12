@@ -5,26 +5,27 @@ description: Hacks for App Lab Quiz.
 categories: [markdown, week3]
 title: App Lab Quiz - Design, Successes, Discoveries, and Challenges
 ---
+Link to Taylor Swift Album Quiz: https://studio.code.org/projects/applab/tEwjnY3zVAeOvhT2MAS3XhdlD-BZRaiut0blPH3dql0 
 
 # Design and Successes
 (check out other post for outline/planning of quiz).
 
-### Program Purpose and Function
+## Program Purpose and Function
 I don't have a video explaining my code or a written response, but I will attempt to explain my code to my teacher during my live review. 
 
-### Data Abstraction
+## Data Abstraction
 In my code, I have a variable called "score." With each correct answer, this variable increments by one. In the end of the quiz, this value (out of 3), shows up on the last screen.
 
-### Managing Complexity
+## Managing Complexity
 As a result of my code not being too complex, I didn't have selected lists to manage complexity in my code. But this is something I should keep in mind when coding future projects. 
 
-### Procedural Abstraction
+## Procedural Abstraction
 I don't have any procedures with parameters in my code, but if I would impletment one, I would probably use one for my score variable where it increments by one for each correct answer. 
 
-### Algorithm Implementation
+## Algorithm Implementation
 My code has iteration when displaying the incremented score in my code. I understand my code well enough to explain the steps to my teacher during my live review on monday. 
 
-### Testing
+## Testing
 The parameters that I have in my code concern the correct and incorrect answers. For example, the sound "correct" only appears when the correct answer is chosen. And the score only increments when the correct answer is chosen. 
 
 # Discoveries 
