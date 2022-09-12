@@ -6,11 +6,10 @@ categories: [markdown, week3]
 title: App Lab Program Design Quiz Planning
 ---
 
-###Basic Information about the Quiz: 
+Basic Information about the Quiz: 
 Name of Quiz: Guess the Taylor Swift Album Cover 
-Number of Questions: 6
-- Easy Mode: 3 Multiple Choie Questions with her recent albums. 
-- Pro Mode: 3 Free Response Questions with some of her older albums.
+Number of Questions: 3
+-  3 Multiple Choie Questions with her recent albums. 
 
 Screens: 
 1. Title
@@ -38,25 +37,7 @@ Screens:
   - Correct answer: Lover
   - All Answers: Evermore, Folklore, Lover, Red
 
-5. FR Question 1
-  - Add Image 
-  - Which Album Cover is this? Enter your answer below: 
-  - Correct answer: Fearless
-  - All Answers: Fearless, Red, Lover, 1989
-
-6. FR Question 2
-  - Add Image 
-  - Which Album Cover is this? Enter your answer below: 
-  - Correct answer: Red
-  - All Answers: Fearless, Red, Lover, 1989
-
-7. FR Question 3
-  - Add Image 
-  - Which Album Cover is this? Enter your answer below: 
-  - Correct answer: 1989
-  - All Answers: Fearless, Red, Lover, 1989
-  
-8. Score
+5. Score
   - "Your score is..."
   - Display score 
   - Back to Homepage Button
