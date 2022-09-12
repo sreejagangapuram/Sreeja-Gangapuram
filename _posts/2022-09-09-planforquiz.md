@@ -6,12 +6,13 @@ categories: [markdown, week3]
 title: App Lab Program Design Quiz Planning
 ---
 
-Basic Information about the Quiz: 
-Name of Quiz: Guess the Taylor Swift Album Cover 
-Number of Questions: 3
+## Basic Information about the Quiz 
+Name of Quiz: Guess the Taylor Swift Album Cover.
+
+Number of Questions: 3.
 -  3 Multiple Choie Questions with her recent albums. 
 
-Screens: 
+## Screens
 1. Title
   - "Guess the Taylor Swift Album Cover Quiz!"
   - Add Picture of TS 
