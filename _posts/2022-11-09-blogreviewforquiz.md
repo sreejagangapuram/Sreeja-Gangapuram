@@ -5,7 +5,7 @@ description: Hacks for App Lab Quiz.
 categories: [markdown, week3]
 title: App Lab Quiz - Design, Successes, Discoveries, and Challenges
 ---
-Link to Taylor Swift Album Quiz: https://studio.code.org/projects/applab/tEwjnY3zVAeOvhT2MAS3XhdlD-BZRaiut0blPH3dql0 
+[Link to Taylor Swift Album Quiz](https://studio.code.org/projects/applabtEwjnY3zVAeOvhT2MAS3XhdlD-BZRaiut0blPH3dql0)
 
 # Design and Successes
 (check out other post for outline/planning of quiz).
