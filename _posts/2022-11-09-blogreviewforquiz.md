@@ -3,7 +3,7 @@ toc: true
 layout: post
 description: Hacks for App Lab Quiz. 
 categories: [markdown, week3]
-title: App Lab Quiz: Design, Successes, Discoveries, and Challenges
+title: App Lab Quiz - Design, Successes, Discoveries, and Challenges
 ---
 
 # Design and Successes

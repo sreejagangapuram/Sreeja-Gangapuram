@@ -9,7 +9,7 @@ title: App Lab Program Design Quiz Planning
 ## Basic Information about the Quiz 
 Name of Quiz: Guess the Taylor Swift Album Cover.
 
-Number of Questions: 3.
+Number of Questions: 3 in total. 
 -  3 Multiple Choie Questions with her recent albums. 
 
 ## Screens
