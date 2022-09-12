@@ -16,8 +16,7 @@ Screens:
   - "Guess the Taylor Swift Album Cover Quiz!"
   - Add Picture of TS 
   - "Choose a mode below. Click the easy mode if your knowledge is limited. Click on the pro mode if you dare."
-  - Easy Mode Button - Go to slide number 2
-  - Pro mode Button - Go to slide 
+  - Start! Button - Go to slide number 2
 
 2. MC Question 1
   - Add Image 
