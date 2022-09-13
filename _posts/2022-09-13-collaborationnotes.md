@@ -53,4 +53,14 @@ title: 1.1 Collaboration College Board Videos 1 and 2 Notes
 - ask family/friends to test program and to give you feedback 
 
 # Collaboration Quiz and Program Function and Purpose Score and Proof of Completion
-<img src="{{site.baseurl}}/images/10.png" alt="AP COMPUTER SCIENCE PRINCIPLES" width="400" height="500">  
+<img src="{{site.baseurl}}/images/10.png" alt="AP COMPUTER SCIENCE PRINCIPLES" width="400" height="500">
+
+# Scrum Team Questions
+Is my group setup strictly on the basis of current friends and common interests?
+- No. My group includes one friend and two other people I kind of know. We don't have many common interests. 
+
+Is my group setup with diversity in backgrounds, gender, and perspectives? 
+- My group has diversity in backgrounds and perspectives, byt we don't have diversity in gender. 
+
+Is my group best equipped for the skill sets needed for success in classroom? 
+- My group is best equipped for skill sets needed for success. Some of us know how to code and othersare planning on learning. 
