@@ -60,7 +60,7 @@ Is my group setup strictly on the basis of current friends and common interests?
 - No. My group includes one friend and two other people I kind of know. We don't have many common interests. 
 
 Is my group setup with diversity in backgrounds, gender, and perspectives? 
-- My group has diversity in backgrounds and perspectives, byt we don't have diversity in gender. 
+- My group has diversity in backgrounds and perspectives, but we don't have diversity in gender. 
 
 Is my group best equipped for the skill sets needed for success in classroom? 
-- My group is best equipped for skill sets needed for success. Some of us know how to code and othersare planning on learning. 
+- My group is best equipped for skill sets needed for success. Some of us know how to code and others are planning on learning. 
