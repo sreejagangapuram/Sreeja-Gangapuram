@@ -26,3 +26,13 @@ title: Psychology and the Good Life, by Laurie Santos Notes and Hacks
     9. take time to be in the present moment. use techniques related to savoring. describe the experiance. - meditiation, pay attention to breath, a mantra.
     10. become wealthy in terms of time. prioritize time over money. 
 - the class started a viral conversation about wellbeing and happiness. free version, online version of the class on coursera.org. 
+
+# Graditude List: 
+- Family 
+- Friends 
+- Food 
+- My house 
+- Netflix 
+- Books
+- Blankets 
+- My laptop, phones, and airpods 
