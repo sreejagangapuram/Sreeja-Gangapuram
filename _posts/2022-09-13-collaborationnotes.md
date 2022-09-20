@@ -10,8 +10,8 @@ title: 1.1 Collaboration College Board Videos 1 and 2 Notes
 ## Essential Knowlege: 
 - a computing innovation includes a program
     - can be physical, nonphysical computing software, or nonphysical computing concept 
-- collaboration = produces a computing innovation. also reflects diveristy, talents, and perspectives of designers. diveristy aviods bias. 
-- practive interpersonal skills: commmunication, consensus building, conflict resolution, negotiatiation
+- **collaboration = produces a computing innovation. also reflects diveristy, talents, and perspectives of designers. diveristy aviods bias.** 
+- **practive interpersonal skills: commmunication, consensus building, conflict resolution, negotiatiation**
 
 ## Examples
 ### Facebook
@@ -25,7 +25,7 @@ title: 1.1 Collaboration College Board Videos 1 and 2 Notes
 
 # Video 2 Notes
 ## Essential Knowlege 
-- consultation + communication with users = important for developing computing innovations
+- **consultation + communication with users = important for developing computing innovations**
 - info gathered can help understand purpose of a prgram from different perspectives and uses the perspectives
 - online tools support collaboration, help to share feedback 
 - common models - pair programming
