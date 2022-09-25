@@ -86,7 +86,7 @@ title: College Board Video Topic 1.2 - Program Purpose Notes
 
 # Proof of MC Completion 
 **I did the quiz before watching the videos, so that's the reason for the score :) 
-<img src="{{site.baseurl}}/images/unhappy.png" alt="AP COMPUTER SCIENCE PRINCIPLES" width="400" height="500">
+<img src="{{site.baseurl}}/images/happy.png" alt="AP COMPUTER SCIENCE PRINCIPLES" width="400" height="500">
  
 # Questions Answered: Final Project
 Do we have final project ideas for a PBL Web Project?
