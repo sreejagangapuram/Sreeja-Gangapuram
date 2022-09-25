@@ -23,4 +23,5 @@ Week 1:
 Week 2: 
 
 9. CS Alumnai Panel Write-up **[Click Here](https://sreejagangapuram.github.io/Sreeja-Gangapuram/markdown/2022/08/29/pannel-write-up.html)** 
-10. Lists, Dictionaries, Iteration **[Click Here](https://sreejagangapuram.github.io/Sreeja-Gangapuram/collegeboard/python_lists)**
+10. Lists, Dictionaries, Iteration **[Click Here](https://sreejagangapuram.github.io/Sreeja-Gangapuram/collegeboard/python_lists)** 
+11. testing fastpages local server
