@@ -1,9 +1,9 @@
 ---
 toc: true
 layout: post
-description: Our Scrum Process 
+description: A diagram of our scrum process made on canva. 
 categories: [markdown, week5]
-title: A diagram of our scrum process made on canva. 
+title: Our Scrum Process 
 --- 
 
 # Scrum Process Diagram 

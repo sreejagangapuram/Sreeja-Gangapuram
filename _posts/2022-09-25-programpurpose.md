@@ -15,7 +15,7 @@ title: College Board Video Topic 1.2 - Program Purpose Notes
     - **systems: E-commerce, cloud services, E-mail**
 - Guiding questions:
     - why does the computing ino=ovation exist? 
-    - what problems does the computing innovation solve? 
+    - what problems does the computing innovation solve?  
     - what does the computing innovation allow us to do that we could not do before? 
 - investigating examples: 
     - social media applications
