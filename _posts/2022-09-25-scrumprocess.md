@@ -7,4 +7,4 @@ title: Our Scrum Process
 --- 
 
 # Scrum Process Diagram 
-<img src="{{site.baseurl}}/images/happy.png" alt="AP COMPUTER SCIENCE PRINCIPLES" width="1000" height="600">
+<img src="{{site.baseurl}}/images/25.png" alt="AP COMPUTER SCIENCE PRINCIPLES" width="1000" height="600">
