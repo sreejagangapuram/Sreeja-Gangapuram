@@ -284,9 +284,9 @@
   
       ,"page5": {
           "title": "JavaScript",
-          "content": "Here is my link to my notebook which uses HTML fragments and Javascript in order to make a table. .",
-          "url": "https://sreejagangapuram.github.io/Sreeja-Gangapuram/javascript/",
-          "relUrl": "/javascript/",
+          "content": "| Javascript Table | Javascript | .",
+          "url": "https://sreejagangapuram.github.io/Sreeja-Gangapuram/frontend/overview",
+          "relUrl": "/frontend/overview",
           "date": ""
       }
       
