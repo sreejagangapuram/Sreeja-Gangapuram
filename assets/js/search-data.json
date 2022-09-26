@@ -46,10 +46,10 @@
   
     
         ,"post4": {
-            "title": "Title",
-            "content": "What is Javascript Javascript is a scripting or programming language which can be used to create dynamic web pages. It is used in Web development. Javascript can be used to add behaviour to button click events. . const para = document.querySelector(&#39;p&#39;); para.addEventListener(&#39;click&#39;, updateStudentName); function updateStudentName() { const name = prompt(&#39;Enter a new name&#39;); console.log(&quot;Course: APCSP&quot;); para.textContent = `Student: ${name}`; } . Failed to start the Kernel. Kernel JavaScript (Node.js) is not usable. Check the Jupyter output tab for more information. View Jupyter &lt;a href=&#39;command:jupyter.viewOutput&#39;&gt;log&lt;/a&gt; for further details. .",
-            "url": "https://sreejagangapuram.github.io/Sreeja-Gangapuram/2022/09/25/javapersonalusage.html",
-            "relUrl": "/2022/09/25/javapersonalusage.html",
+            "title": "JavaScript Personal Usage",
+            "content": "What is Javascript? . Javascript is a scripting or programming language which can be used to create dynamic web pages. It is used in most of the Web Browsers. It is used in Web development. Javascript can be used to add behaviour to button click events. . const para = document.querySelector(&#39;p&#39;); para.addEventListener(&#39;click&#39;, updateStudentName); function updateStudentName() { const name = prompt(&#39;Enter a new name&#39;); console.log(&quot;Course: APCSP&quot;); para.textContent = `Student: ${name}`; } . evalmachine.&lt;anonymous&gt;:1 const para = document.querySelector(&#39;p&#39;); ^ SyntaxError: Identifier &#39;para&#39; has already been declared at Script.runInThisContext (node:vm:129:12) at Object.runInThisContext (node:vm:313:38) at run ([eval]:1020:15) at onRunRequest ([eval]:864:18) at onMessage ([eval]:828:13) at process.emit (node:events:513:28) at emit (node:internal/child_process:937:14) at process.processTicksAndRejections (node:internal/process/task_queues:83:21) .",
+            "url": "https://sreejagangapuram.github.io/Sreeja-Gangapuram/techtalk/javascriptusage",
+            "relUrl": "/techtalk/javascriptusage",
             "date": " • Sep 25, 2022"
         }
         
