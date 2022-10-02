@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-description: Word Nerd: Our Planning for the Group Project. 
+description: Word Nerd - Our Planning for the Group Project. 
 categories: [markdown, week6]
 title: Group Project Planning/Brainstorming
 --- 
