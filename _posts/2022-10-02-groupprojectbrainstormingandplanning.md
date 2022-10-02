@@ -8,8 +8,11 @@ title: Group Project Planning/Brainstorming
 
 # Group Roles
 Sreeja Gangapuram: Scrum Master
+
 Ananya Gaurav: Dev Operator
+
 Aliya Tang: Frontend Developer 
+
 Claire Chen: Backend Developer 
 
 # Our Planning 
