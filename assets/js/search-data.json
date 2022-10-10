@@ -392,19 +392,14 @@
   
 
   
-
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
+      ,"page6": {
+          "title": "API",
+          "content": "| Python RapidAPI | Book Data API | .",
+          "url": "https://sreejagangapuram.github.io/Sreeja-Gangapuram/frontend/api",
+          "relUrl": "/frontend/api",
+          "date": ""
+      }
+      
   
 
   
@@ -415,7 +410,23 @@
   
 
   
-      ,"page15": {
+  
+
+  
+  
+
+  
+  
+
+  
+
+  
+
+  
+  
+
+  
+      ,"page16": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://sreejagangapuram.github.io/Sreeja-Gangapuram/robots.txt",
