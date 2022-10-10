@@ -7,11 +7,11 @@ title: GitHub and Git Sociology Hacks Questions and Key Vocab
 --- 
 
 # Key Vocab 
-- “git clone”: makes a Git repository
-- .git directory: keeps track of local changes using a local databose. 
-- “git commit”: takes a snapshot on the local database. 
-- .gitignore file: tells .git to ignore certain files
-- “git push”: moves files to github 
+- “git clone” - makes a Git repository
+- .git directory - keeps track of local changes using a local databose. 
+- “git commit" - takes a snapshot on the local database. 
+- .gitignore file - tells .git to ignore certain files
+- “git push” - moves files to github 
 
 # Questions and Answers for Hacks
 What is the main repository for your project?
