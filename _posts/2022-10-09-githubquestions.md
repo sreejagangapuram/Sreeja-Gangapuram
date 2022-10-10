@@ -6,7 +6,7 @@ categories: [markdown, week7]
 title: GitHub and Git Sociology Hacks Questions and Key Vocab 
 --- 
 
-# Key Vocab 
+# Key Vocabulary
 - “git clone” - makes a Git repository
 - .git directory - keeps track of local changes using a local databose. 
 - “git commit" - takes a snapshot on the local database. 
