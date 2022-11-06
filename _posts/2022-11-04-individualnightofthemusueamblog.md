@@ -5,6 +5,7 @@ description: A blog about my visits to other classrooms, .
 categories: [markdown, week 11]
 title: My Night of the Musuem Experiance. 
 --- 
+
 # My Visits to Classrooms 
 ### AP Studio Art
 <img src="{{site.baseurl}}/images/a.png" alt="AP COMPUTER SCIENCE PRINCIPLES" width="500" height="500"> 
