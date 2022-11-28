@@ -22,7 +22,7 @@ tags: [html, liquid, javascript]
         <div class="col-8">
             <table class="table">
             <tr id="table">
-                <th>Plus</th>
+                <th>Plus add</th>
                 <th>Binary</th>
                 <th>Octal</th>
                 <th>Hexadecimal</th>
