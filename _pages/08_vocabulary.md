@@ -17,41 +17,58 @@ permalink: /vocabulary/
 - **Boolean**: logical data type that can have only the values true or false. 
 - **ASCII**: a character encoding scheme in which each character is represented by a 7-bit (originally) or 8-bit binary sequence. 
 - **Unicode**: 16-bit character set which describes all of the keyboard characters.
-- **RGB**: 
-- **Data Compression**: 
-- **Lossy**: 
-- **Lossless**: 
+- **RGB**: a problem solving approach (algorithm) to find a satisfactory solution where finding an optimal or exact solution is impractical or impossible.
+- **Data Compression**: the process of encoding data so that is needs fewer bits/bytes to represent it.
+- **Lossy**: data encoding and compression technique that deliberately discards some data in the compression process.
+- **Lossless**: data compression algorithm that allows the original data to be perfectly reconstructed from the compressed data
 
 <mark>Unit 3 Algorithm/Programming Terms</mark>
-- **Variables**
+- **Variables**: a value that can change, depending on conditions or on information passed to the program.
 - **Data Types**
-- **Assignment Operators**
-- **Managing Complexity with Variables**
-- **Lists**
-- **2D Lists**
-- **Dictionaries**
-- **Class**
-- **Algorithms**
-- **Sequence**
-- **Selection**
-- **Iteration**
-- **Expressions**
-- **Comparison Operators**
-- **Booleans Expressions and Selection**
-- **Booleans Expressions and Iteration**
-- **Truth Tables**
-- **Characters**
-- **Strings**
-- **Length**
-- **Concatenation**
-- **Upper**
-- **Lower**
-- **Traversing Strings**
+    - String (or str or text) - combination of any characters
+    - Character (or char) - single letters
+    - Integer (or int) - whole numbers
+    - Float (or Real) - numbers that contain decimal points, or for fractions.
+    - Boolean (or bool) - data is restricted to True/False or yes/no options 
+- **Assignment Operators** - operator used to assign a new value to a variable. 
+- **Managing Complexity with Variables**: with variables, a complex entity can be manipulated. 
+- **Lists**: an abstract data type that represents a finite number of ordered values, where the same value may occur more than once.
+- **2D Lists**: a two-dimensional array can hold more than one set of data
+- **Dictionaries**: an abstract data type that defines an unordered collection of data as a set of key-value pairs
+- **Class**: written in a in a defined structure to create an object. 
+- **Algorithms**: a list set of instructions, used to solve problems or perform tasks. 
+    - **Sequence**: algorithms do tasks in the order of specification.
+    - **Selection**: helps choose two different outcomes based off a decision.
+    - **Iteration**: if a condition is true, then the code can repeat.
+- **Expressions**: combination of values and functions that are combined and interpreted to create a new value. 
+- **Comparison Operators**: compare two values against one another.
+- **Booleans Expressions and Selection**: if a condition is true or false, there is a differnet outcome. 
+- **Booleans Expressions and Iteration**: if a condition is true, the code repeats an earlier step. 
+- **Truth Tables**: have two values 
+    - 0 = off, false
+    - 1 = on, true
+    - Examples 
+        - 0 and 0 = false. And operator means both needs to be true. 
+        - 0 or 1 = true. Either or. 
+        - Use this in conditionals (selection). 
+        - XOR = exclusive or. 
+        - Or = similar to true or false. 
+- **Characters**: display unit of information equivalent to one alphabetic letter or symbol.
+- **Strings**: ordered sequences of characters. 
+- **Length**: the number of symbols output. 
+- **Concatenation**: operation of joining two strings together.
+- **Upper**: used to check if the argument contains any uppercase characters. 
+    - returns "True" if all characters in the string are uppercase, Otherwise, It returns "False".
+- **Lower**: returns the lowercase string from the given string.
+- **Traversing Strings**: the process of going through a String one character at a time, often using loops.
 - **Python If, Elif, Else conditionals**
-- **Nested Selection Statements**
-- **Python For While loops with Range with List**
-- **Combining loops with conditionals to Break, Continue**
-- **Procedural Abstraction**
-- **Python Def procedures**
-- **Parameters**
-- **Return Values** 
+    - If: statement executes a piece of code when one statement is false and the following statement is true. 
+    - Elif: first if statement isn't true, but want to check for another condition.
+    - Else: executes if "if" isn't true. 
+- **Nested Selection Statements**: when more than one decision must be made before the appropriate action can be taken.
+- **Python For While loops with Range with List**: returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
+- **Combining loops with conditionals to Break, Continue**: a statement that controls the flow of execution depending on some condition.
+- **Procedural Abstraction**: have variable parameters. 
+- **Python Def procedures**: procedure allows us to group a block of code under a name, known as a procedure name.
+- **Parameters**: variable used in a function to refer to one of the pieces of data provided as input to the function.
+- **Return Values**: function returns to the calling script or function when it completes its task.
