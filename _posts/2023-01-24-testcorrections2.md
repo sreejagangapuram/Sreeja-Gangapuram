@@ -5,6 +5,7 @@ description: Proof of MC Completion and Corrections
 categories: [markdown, week 20]
 title: Collge Board MC Corrections 
 --- 
+
 # Proof of Completion 
 <img src="{{site.baseurl}}/images/poppy.png" alt="AP COMPUTER SCIENCE PRINCIPLES" width="600" height="300"> 
 
