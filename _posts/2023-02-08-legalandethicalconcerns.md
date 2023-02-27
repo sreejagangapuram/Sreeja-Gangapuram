@@ -18,7 +18,7 @@ All Software Licenses/Options depend on the level of privacy needed for the part
 
 **<mark>Make a license for your personal (blog) and Team repositories for the CPT project. Be sure to have a license for both Team GitHub repositories (frontend/backend). Document license(s) you picked and why. FYI, frontend, since it is built on GitHub pages may come with a license and restrictions. Document in blog how team made license choice and process of update.</mark>**
 
-My personal repository has a Apache License v2. This license was already present when I cloned it. Our group is planning on using a MIT License because it seems like its the most fitting for our needs. We want people to benefit from our code and project, but we want to be given credit as a group. 
+My personal repository has a Apache License v2. This license was already present when I cloned it. Our group used a gnu license. 
 
 # 5.6 Blog Post Reflection:
 
