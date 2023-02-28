@@ -4,8 +4,8 @@ layout: post
 description: My Night@The Museum Experiance With Pictures. 
 categories: [markdown, week 22]
 title: Night@The Museum Experiance Blog 
-
 --- 
+
 # Pictures From Night@The Museum and My Experiance
 <img src="{{site.baseurl}}/images/uno.png" alt="AP COMPUTER SCIENCE PRINCIPLES" width="500" height="500"> 
 

@@ -4,7 +4,6 @@ layout: post
 description: My Hacks For Big Idea 5.5 Legal and Ethical Concerns and Big Idea 5.6 Safe Computing
 categories: [markdown, week 21]
 title: Big Idea 5.5 Legal and Ethical Concerns and Big Idea 5.6 Safe Computing
-
 --- 
 # 5.5 Post Blog Reflection 
 
