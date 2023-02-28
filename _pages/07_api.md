@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: API
 permalink: /frontend/api
 type: pbl
