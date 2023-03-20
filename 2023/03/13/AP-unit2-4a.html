@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      16 min read
+      17 min read
     
 </span></p>
 
@@ -142,7 +142,6 @@ window.onload = wrap_img;
 </ul>
 </li>
 <li class="toc-entry toc-h1"><a href="#Update">Update </a></li>
-<li class="toc-entry toc-h1"><a href="#Proof-of-Updating">Proof of Updating </a></li>
 <li class="toc-entry toc-h1"><a href="#Delete">Delete </a></li>
 <li class="toc-entry toc-h1"><a href="#Proof-of-Deletion">Proof of Deletion </a></li>
 </ul><!--
@@ -705,7 +704,7 @@ Records exist uid raven, or error.
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Created
- {'id': 7, 'name': 'sreejagangapuram1', 'uid': 'sreeja123', 'dob': '10-29-2006', 'age': 16}
+ {'id': 10, 'name': 'SreejaGGG', 'uid': 'sreeja2', 'dob': '10-10-2006', 'age': 16}
 </pre>
 </div>
 </div>
@@ -894,15 +893,72 @@ Records exist uid raven, or error.
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Proof-of-Updating">
-<a class="anchor" href="#Proof-of-Updating" aria-hidden="true"><span class="octicon octicon-link"></span></a>Proof of Updating<a class="anchor-link" href="#Proof-of-Updating"> </a>
-</h1>
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">update</span><span class="p">():</span>
+    <span class="c1"># input - uid of the user which we want to update</span>
+    <span class="n">uid</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter user id"</span><span class="p">)</span>
+    <span class="n">user</span> <span class="o">=</span> <span class="n">find_by_uid</span><span class="p">(</span><span class="n">uid</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">user</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"User does not exist."</span><span class="p">)</span>
+        <span class="k">return</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">'User Found With user id '</span><span class="o">+</span><span class="n">uid</span><span class="p">)</span>
+        
+
+    <span class="c1"># User validation </span>
+    <span class="n">password</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter your password for validation"</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">check_credentials</span><span class="p">(</span><span class="n">uid</span><span class="p">,</span> <span class="n">password</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"The password you have entered is invalid"</span><span class="p">)</span>
+        <span class="k">return</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Your password is validated"</span><span class="p">)</span>
+        
+
+    <span class="n">newName</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter your name"</span><span class="p">)</span>
+    <span class="n">newPassword</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter new password"</span><span class="p">)</span>
+         
+    <span class="c1"># Update the user details</span>
+    <span class="k">with</span> <span class="n">app</span><span class="o">.</span><span class="n">app_context</span><span class="p">():</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="nb">object</span> <span class="o">=</span> <span class="n">user</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">newName</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="n">uid</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="n">newPassword</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"User is sucessfully updated: "</span><span class="p">,</span> <span class="nb">object</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"Error Occurred: User not updated"</span><span class="p">)</span>
+
+
+<span class="n">update</span><span class="p">()</span>
+</pre></div>
+
+    </div>
 </div>
 </div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>User Found With user id sreeja1
+Your password is validated
+User is sucessfully updated:  {'id': 9, 'name': 'SreejaGan', 'uid': 'sreeja1', 'dob': '10-30-2006', 'age': 16}
+</pre>
 </div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -912,12 +968,77 @@ Records exist uid raven, or error.
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">delete</span><span class="p">():</span>
+    <span class="c1"># input - uid of the user which we want to delete</span>
+    <span class="n">uid</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter user id"</span><span class="p">)</span>
+    <span class="n">user</span> <span class="o">=</span> <span class="n">find_by_uid</span><span class="p">(</span><span class="n">uid</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">user</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"User does not exist."</span><span class="p">)</span>
+        <span class="k">return</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">'User Found With user id '</span><span class="o">+</span><span class="n">uid</span><span class="p">)</span>
+        
+
+    <span class="c1"># User validation </span>
+    <span class="n">password</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter your password for validation"</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">check_credentials</span><span class="p">(</span><span class="n">uid</span><span class="p">,</span> <span class="n">password</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"The password you have entered is invalid"</span><span class="p">)</span>
+        <span class="k">return</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Your password is validated"</span><span class="p">)</span>
+        
+         
+    <span class="c1"># delete user</span>
+    <span class="k">with</span> <span class="n">app</span><span class="o">.</span><span class="n">app_context</span><span class="p">():</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="n">user</span><span class="o">.</span><span class="n">delete</span><span class="p">()</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"User deleted successfully"</span><span class="p">)</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"Error occurred "</span><span class="p">)</span>
+
+<span class="n">delete</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>User Found With user id sreeja2
+Your password is validated
+User deleted successfully
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Proof-of-Deletion">
 <a class="anchor" href="#Proof-of-Deletion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Proof of Deletion<a class="anchor-link" href="#Proof-of-Deletion"> </a>
 </h1>
+<p>Before</p>
+<p>After</p>
+
 </div>
 </div>
 </div>
