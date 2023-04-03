@@ -1,0 +1,25 @@
+---
+toc: true
+layout: post
+description: My corrections on the College Board MC Test 4. 
+categories: [markdown, week 28]
+title: MC Test 4 Reflection and Test Corrections 
+--- 
+# Score: 45/50 = 90%
+<img src="{{site.baseurl}}/images/mcq.png" alt="AP COMPUTER SCIENCE PRINCIPLES" width="500" height="500"> 
+
+# Corrections 
+## Question 24 - Based on the information in the table, which of the following tasks is likely to take the longest amount of time when scaled up for a very large company of approximately 100,000 customers? Skill 5.D: Describe the impact of gathering data.
+- I got this question wrong because I put A, backing up data, while the correct answer is D, sorting data. This was just a comprehension error and I should have read the problem more carefully. Before the AP test I should review skill Skill 5.D: Describe the impact of gathering data by watching its corresponding college board video. 
+
+## Question 26 - Which of the following is a true statement about data compression? Skill 1.D: Evaluate solution options.
+- I got this quesiton wrong because I put B, Regardless of the compression technique used, once a data file is compressed, it cannot be restored to its original state. The correct answer is D, There are trade-offs involved in choosing a compression technique for storing and transmitting data. I should review Skill 1.D: Evaluate solution options before the AP test by watching the college board videos. 
+
+## Question 27 -  Digital images are often represented by the red, green, and blue values (an RGB triplet) of each individual pixel in the image. A photographer is manipulating a digital image and overwriting the original image. Which of the following describes a lossless transformation of the digital image? Skill 1.D: Evaluate solution options.
+- I got this question wrong because I put B, Creating the gray scale of an image by averaging the amounts of red, green, and blue in each pixel and assigning this new value to the corresponding pixel in the new image. The new value of each pixel represents a shade of gray, ranging from white to black. B is incorrect because This option is incorrect. By converting the red, green, and blue values in each pixel into a single number, information has been lost that cannot be restored. The correct answer is C, Creating the negative of an image by creating a new RGB triplet for each pixel in which each value is calculated by subtracting the original value from 255. The negative of an image is reversed from the original; light areas appear dark, and colors are reversed. C is correct because if a negative of the original image is made, each RGB triplet value will be computed by subtracting the original value from 255. The original value can then be restored by subtracting the new value from 255. This process is lossless because the exact original can be restored.
+
+## Question 28 - A video-streaming Web site uses 32-bit integers to count the number of times each video has been played. In anticipation of some videos being played more times than can be represented with 32 bits, the Web site is planning to change to 64-bit integers for the counter. Which of the following best describes the result of using 64-bit integers instead of 32-bit integers? Skill 2.B: Implement and apply an algorithm.
+- I got this question wrong, I put D, 322 times as many values can be represented. But the correct answer is C, 232 times as many values can be represented. This question is representative of Skill 2.B: Implement and apply an algorithm. So I should review this skill before the AP test. 
+
+## Question 50 - Suppose a large group of people in a room were all born in the same year. Consider the following three algorithms, which are each intended to identify the people in the room who have the earliest birthday based on just the month and day. For example, a person born on February 10 is considered to have an earlier birthday than a person born on March 5. Which of the three algorithms will identify the correct people? Skill 2.A: Represent algorithmic processes without using a programming language.
+- I got this question wrong, I put C, I and II. This is wrong because Algorithm I does not work correctly. In algorithm I, if two people are tied for the earliest birthday, they both sit down when they are eventually paired. The correct answer is B, II only. B is correct because algorithm I does not work correctly. In algorithm I, if two people are tied for the earliest birthday, they both sit down when they are eventually paired. Algorithm II works correctly. Because algorithm II allows both people to remain standing when there is a tie, a person with the earliest birthday is not eliminated. Algorithm II continues until all remaining people have the same birthday, which is the earliest birthday. Algorithm III does not work correctly. Algorithm III chooses the person(s) with the earliest day, disregarding the month. For example, algorithm III will incorrectly determine that a person born on February 1 has an earlier birthday than a person born on January 5.
