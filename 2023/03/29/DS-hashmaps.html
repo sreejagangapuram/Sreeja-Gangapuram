@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      8 min read
+      9 min read
     
 </span></p>
 
@@ -132,9 +132,12 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h2"><a href="#Hacks">Hacks </a></li>
 </ul>
 </li>
+<li class="toc-entry toc-h1"><a href="#Pros-and-Cons-of-Hashtables">Pros and Cons of Hashtables </a></li>
+<li class="toc-entry toc-h1"><a href="#Dictionary-Vs-List">Dictionary Vs List </a></li>
+<li class="toc-entry toc-h1"><a href="#Own-Album-Using-A-Python-Dictionary">Own Album Using A Python Dictionary </a></li>
 <li class="toc-entry toc-h1"><a href="#My-Favorite-Taylor-Swift-Song">My Favorite Taylor Swift Song </a>
 <ul>
-<li class="toc-entry toc-h2"><a href="#Hands-down,-Willow-is-my-Taylor-Swift-song-of-all-time.-I-love-how-simple-and-calming-the-music-is.-No-matter-what-mood-I'm-in,-Willow-always-calms-me-down.-Also,-the-metaphor-of-the-water-being-Taylor-and-the-ship,-a-man,-causing-ripples-in-her-life-is-very-creative.-In-addition,-Taylor's-voice-is-so-soft-and-beautiful-in-this-song.-The-song's-overall-simplicity-and-metaphors-make-it-breathtaking.-I-also-have-a-personal-connection-with-this-song.-Last-year,-I-took-AP-Euro-and-for-this-class-I-had-to-take-long-and-tiring-textbook-notes.-I-was-up-at-1:00-every-day-doing-the-notes.-Near-the-end-of-my-notetaking,-when-I-was-stressed-and-ready-to-give-up,-I-always-listened-to-Willow.-It-always-managed-to-calm-me-down-with-the-beautiful-music.-And-before-I-went-to-bed,-it-was-always-the-last-song-I-listened-to.-It-always-made-me-fall-asleep-with-a-smile.">Hands down, Willow is my Taylor Swift song of all time. I love how simple and calming the music is. No matter what mood I&#39;m in, Willow always calms me down. Also, the metaphor of the water being Taylor and the ship, a man, causing ripples in her life is very creative. In addition, Taylor&#39;s voice is so soft and beautiful in this song. The song&#39;s overall simplicity and metaphors make it breathtaking. I also have a personal connection with this song. Last year, I took AP Euro and for this class I had to take long and tiring textbook notes. I was up at 1:00 every day doing the notes. Near the end of my notetaking, when I was stressed and ready to give up, I always listened to Willow. It always managed to calm me down with the beautiful music. And before I went to bed, it was always the last song I listened to. It always made me fall asleep with a smile. </a></li>
+<li class="toc-entry toc-h3"><a href="#Hands-down,-Willow-is-my-Taylor-Swift-song-of-all-time.-I-love-how-simple-and-calming-the-music-is.-No-matter-what-mood-I'm-in,-Willow-always-calms-me-down.-Also,-the-metaphor-of-the-water-being-Taylor-and-the-ship,-a-man,-causing-ripples-in-her-life-is-very-creative.-In-addition,-Taylor's-voice-is-so-soft-and-beautiful-in-this-song.-The-song's-overall-simplicity-and-metaphors-make-it-breathtaking.-I-also-have-a-personal-connection-with-this-song.-Last-year,-I-took-AP-Euro-and-for-this-class-I-had-to-take-long-and-tiring-textbook-notes.-I-was-up-at-1:00-every-day-doing-the-notes.-Near-the-end-of-my-notetaking,-when-I-was-stressed-and-ready-to-give-up,-I-always-listened-to-Willow.-It-always-managed-to-calm-me-down-with-the-beautiful-music.-And-before-I-went-to-bed,-it-was-always-the-last-song-I-listened-to.-It-always-made-me-fall-asleep-with-a-smile.">Hands down, Willow is my Taylor Swift song of all time. I love how simple and calming the music is. No matter what mood I&#39;m in, Willow always calms me down. Also, the metaphor of the water being Taylor and the ship, a man, causing ripples in her life is very creative. In addition, Taylor&#39;s voice is so soft and beautiful in this song. The song&#39;s overall simplicity and metaphors make it breathtaking. I also have a personal connection with this song. Last year, I took AP Euro and for this class I had to take long and tiring textbook notes. I was up at 1:00 every day doing the notes. Near the end of my notetaking, when I was stressed and ready to give up, I always listened to Willow. It always managed to calm me down with the beautiful music. And before I went to bed, it was always the last song I listened to. It always made me fall asleep with a smile. </a></li>
 </ul>
 </li>
 </ul><!--
@@ -495,10 +498,6 @@ The Man
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">lover_album</span><span class="o">.</span><span class="n">items</span><span class="p">():</span> <span class="c1"># iterate using a for loop for key and value</span>
     <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">k</span><span class="p">)</span> <span class="o">+</span> <span class="s2">": "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">v</span><span class="p">))</span>
-
-<span class="c1"># Write your own code to print tracks in readable format</span>
-<span class="c1">#</span>
-<span class="c1">#</span>
 </pre></div>
 
     </div>
@@ -544,8 +543,7 @@ producer: ['Taylor Swift', 'Jack Antonoff', 'Joel Little', 'Taylor Swift', 'Loui
 <span class="n">search</span><span class="p">()</span>
 
 <span class="c1"># This is a very basic code segment, how can you improve upon this code?</span>
-<span class="c1">#</span>
-<span class="c1">#</span>
+<span class="c1"># Allowing users to look for specific terms in the dictionary (such as album title, artist, year, genre, tracks, etc.) rather than just a single key will give the search function more utility. Use more detailed error notifications to explain to the user why their search was unsuccessful.</span>
 </pre></div>
 
     </div>
@@ -583,12 +581,134 @@ producer: ['Taylor Swift', 'Jack Antonoff', 'Joel Little', 'Taylor Swift', 'Loui
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Pros-and-Cons-of-Hashtables">
+<a class="anchor" href="#Pros-and-Cons-of-Hashtables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pros and Cons of Hashtables<a class="anchor-link" href="#Pros-and-Cons-of-Hashtables"> </a>
+</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Dictionary-Vs-List">
+<a class="anchor" href="#Dictionary-Vs-List" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dictionary Vs List<a class="anchor-link" href="#Dictionary-Vs-List"> </a>
+</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Own-Album-Using-A-Python-Dictionary">
+<a class="anchor" href="#Own-Album-Using-A-Python-Dictionary" aria-hidden="true"><span class="octicon octicon-link"></span></a>Own Album Using A Python Dictionary<a class="anchor-link" href="#Own-Album-Using-A-Python-Dictionary"> </a>
+</h1>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sreejas_favs</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">"genres"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"R&amp;B"</span><span class="p">,</span> <span class="s2">"Rap"</span><span class="p">,</span><span class="s2">"Pop"</span><span class="p">],</span>
+    <span class="s2">"artists"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"Taylor Swift"</span><span class="p">,</span> <span class="s2">"The Weekend"</span><span class="p">,</span> <span class="s2">"Chase Atlanic"</span><span class="p">,</span> <span class="s2">"Ariana Grande"</span><span class="p">,</span> <span class="s2">"Drake"</span><span class="p">,</span> <span class="s2">"Bad Bunny"</span><span class="p">],</span>
+    <span class="s2">"songs"</span><span class="p">:</span> <span class="p">{</span>
+        <span class="mi">1</span><span class="p">:</span> <span class="s2">"Willow"</span><span class="p">,</span>
+        <span class="mi">2</span><span class="p">:</span> <span class="s2">"Midnight Rain"</span><span class="p">,</span>
+        <span class="mi">3</span><span class="p">:</span> <span class="s2">"Save Your Tears"</span><span class="p">,</span>
+        <span class="mi">4</span><span class="p">:</span> <span class="s2">"Can't Blame Me"</span><span class="p">,</span>
+        <span class="mi">5</span><span class="p">:</span> <span class="s2">"Into You"</span><span class="p">,</span>
+        <span class="mi">6</span><span class="p">:</span> <span class="s2">"WAIT FOR YOU"</span><span class="p">,</span>
+        <span class="mi">7</span><span class="p">:</span> <span class="s2">"Middle of the Ocean"</span><span class="p">,</span>
+        <span class="mi">8</span><span class="p">:</span> <span class="s2">"Me Porto Bonito"</span><span class="p">,</span>
+        <span class="mi">9</span><span class="p">:</span> <span class="s2">"Bad Blood"</span><span class="p">,</span>
+        <span class="mi">10</span><span class="p">:</span> <span class="s2">"Starbou"</span><span class="p">,</span>
+        <span class="mi">11</span><span class="p">:</span> <span class="s2">"Blinding Lights"</span><span class="p">,</span>
+        <span class="mi">12</span><span class="p">:</span> <span class="s2">"ESCORT"</span><span class="p">,</span>
+        <span class="mi">13</span><span class="p">:</span> <span class="s2">"Sweet Nothing"</span><span class="p">,</span>
+        <span class="mi">14</span><span class="p">:</span> <span class="s2">"Lavender Haze"</span><span class="p">,</span>
+        <span class="mi">15</span><span class="p">:</span> <span class="s2">"Repeat After Me"</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">def</span> <span class="nf">print_sreeja_favs</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Genres:"</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">genre</span> <span class="ow">in</span> <span class="n">sreejas_favs</span><span class="p">[</span><span class="s2">"genres"</span><span class="p">]:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">genre</span><span class="p">)</span>
+    
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Artists:"</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">artist</span> <span class="ow">in</span> <span class="n">sreejas_favs</span><span class="p">[</span><span class="s2">"artists"</span><span class="p">]:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">artist</span><span class="p">)</span>
+    
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Songs:"</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">number</span><span class="p">,</span> <span class="n">title</span> <span class="ow">in</span> <span class="n">sreejas_favs</span><span class="p">[</span><span class="s2">"songs"</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">number</span><span class="p">)</span><span class="o">+</span><span class="s1">'. '</span><span class="o">+</span><span class="n">title</span><span class="p">)</span>
+   
+
+<span class="n">print_sreeja_favs</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Genres:
+R&amp;B
+Rap
+Pop
+
+Artists:
+Taylor Swift
+The Weekend
+Chase Atlanic
+Ariana Grande
+Drake
+Bad Bunny
+
+Songs:
+1. Willow
+2. Midnight Rain
+3. Save Your Tears
+4. Can't Blame Me
+5. Into You
+6. WAIT FOR YOU
+7. Middle of the Ocean
+8. Me Porto Bonito
+9. Bad Blood
+10. Starbou
+11. Blinding Lights
+12. ESCORT
+13. Sweet Nothing
+14. Lavender Haze
+15. Repeat After Me
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="My-Favorite-Taylor-Swift-Song">
 <a class="anchor" href="#My-Favorite-Taylor-Swift-Song" aria-hidden="true"><span class="octicon octicon-link"></span></a><mark>My Favorite Taylor Swift Song</mark><a class="anchor-link" href="#My-Favorite-Taylor-Swift-Song"> </a>
 </h1>
-<h2 id="Hands-down,-Willow-is-my-Taylor-Swift-song-of-all-time.-I-love-how-simple-and-calming-the-music-is.-No-matter-what-mood-I'm-in,-Willow-always-calms-me-down.-Also,-the-metaphor-of-the-water-being-Taylor-and-the-ship,-a-man,-causing-ripples-in-her-life-is-very-creative.-In-addition,-Taylor's-voice-is-so-soft-and-beautiful-in-this-song.-The-song's-overall-simplicity-and-metaphors-make-it-breathtaking.-I-also-have-a-personal-connection-with-this-song.-Last-year,-I-took-AP-Euro-and-for-this-class-I-had-to-take-long-and-tiring-textbook-notes.-I-was-up-at-1:00-every-day-doing-the-notes.-Near-the-end-of-my-notetaking,-when-I-was-stressed-and-ready-to-give-up,-I-always-listened-to-Willow.-It-always-managed-to-calm-me-down-with-the-beautiful-music.-And-before-I-went-to-bed,-it-was-always-the-last-song-I-listened-to.-It-always-made-me-fall-asleep-with-a-smile.">
+<h3 id="Hands-down,-Willow-is-my-Taylor-Swift-song-of-all-time.-I-love-how-simple-and-calming-the-music-is.-No-matter-what-mood-I'm-in,-Willow-always-calms-me-down.-Also,-the-metaphor-of-the-water-being-Taylor-and-the-ship,-a-man,-causing-ripples-in-her-life-is-very-creative.-In-addition,-Taylor's-voice-is-so-soft-and-beautiful-in-this-song.-The-song's-overall-simplicity-and-metaphors-make-it-breathtaking.-I-also-have-a-personal-connection-with-this-song.-Last-year,-I-took-AP-Euro-and-for-this-class-I-had-to-take-long-and-tiring-textbook-notes.-I-was-up-at-1:00-every-day-doing-the-notes.-Near-the-end-of-my-notetaking,-when-I-was-stressed-and-ready-to-give-up,-I-always-listened-to-Willow.-It-always-managed-to-calm-me-down-with-the-beautiful-music.-And-before-I-went-to-bed,-it-was-always-the-last-song-I-listened-to.-It-always-made-me-fall-asleep-with-a-smile.">
 <a class="anchor" href="#Hands-down,-Willow-is-my-Taylor-Swift-song-of-all-time.-I-love-how-simple-and-calming-the-music-is.-No-matter-what-mood-I'm-in,-Willow-always-calms-me-down.-Also,-the-metaphor-of-the-water-being-Taylor-and-the-ship,-a-man,-causing-ripples-in-her-life-is-very-creative.-In-addition,-Taylor's-voice-is-so-soft-and-beautiful-in-this-song.-The-song's-overall-simplicity-and-metaphors-make-it-breathtaking.-I-also-have-a-personal-connection-with-this-song.-Last-year,-I-took-AP-Euro-and-for-this-class-I-had-to-take-long-and-tiring-textbook-notes.-I-was-up-at-1:00-every-day-doing-the-notes.-Near-the-end-of-my-notetaking,-when-I-was-stressed-and-ready-to-give-up,-I-always-listened-to-Willow.-It-always-managed-to-calm-me-down-with-the-beautiful-music.-And-before-I-went-to-bed,-it-was-always-the-last-song-I-listened-to.-It-always-made-me-fall-asleep-with-a-smile." aria-hidden="true"><span class="octicon octicon-link"></span></a>Hands down, Willow is my Taylor Swift song of all time. I love how simple and calming the music is. No matter what mood I'm in, Willow always calms me down. Also, the metaphor of the water being Taylor and the ship, a man, causing ripples in her life is very creative. In addition, Taylor's voice is so soft and beautiful in this song. The song's overall simplicity and metaphors make it breathtaking. I also have a personal connection with this song. Last year, I took AP Euro and for this class I had to take long and tiring textbook notes. I was up at 1:00 every day doing the notes. Near the end of my notetaking, when I was stressed and ready to give up, I always listened to Willow. It always managed to calm me down with the beautiful music. And before I went to bed, it was always the last song I listened to. It always made me fall asleep with a smile.<a class="anchor-link" href="#Hands-down,-Willow-is-my-Taylor-Swift-song-of-all-time.-I-love-how-simple-and-calming-the-music-is.-No-matter-what-mood-I'm-in,-Willow-always-calms-me-down.-Also,-the-metaphor-of-the-water-being-Taylor-and-the-ship,-a-man,-causing-ripples-in-her-life-is-very-creative.-In-addition,-Taylor's-voice-is-so-soft-and-beautiful-in-this-song.-The-song's-overall-simplicity-and-metaphors-make-it-breathtaking.-I-also-have-a-personal-connection-with-this-song.-Last-year,-I-took-AP-Euro-and-for-this-class-I-had-to-take-long-and-tiring-textbook-notes.-I-was-up-at-1:00-every-day-doing-the-notes.-Near-the-end-of-my-notetaking,-when-I-was-stressed-and-ready-to-give-up,-I-always-listened-to-Willow.-It-always-managed-to-calm-me-down-with-the-beautiful-music.-And-before-I-went-to-bed,-it-was-always-the-last-song-I-listened-to.-It-always-made-me-fall-asleep-with-a-smile."> </a>
-</h2>
+</h3>
 </div>
 </div>
 </div>
