@@ -8,7 +8,7 @@ title: Multiple Choice 2018 Test Corrections and Reflection
 # Score: 64/66 = 96%
 <img src="{{site.baseurl}}/images/aw.png" alt="AP COMPUTER SCIENCE PRINCIPLES" width="500" height="500"> 
 
-# Corrections  
+# Corrections 
 ## Question 40 - The teacher has data representing the scores of thousands of students. For each student, the data contain the student name, the midterm exam score, the final exam score, and the result of the total points calculation. Which of the following could be determined from the data?
 
 <img src="{{site.baseurl}}/images/aw1.png" alt="AP COMPUTER SCIENCE PRINCIPLES" width="500" height="500"> 
