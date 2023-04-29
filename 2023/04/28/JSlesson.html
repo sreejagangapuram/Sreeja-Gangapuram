@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      5 min read
+      6 min read
     
 </span></p>
 
@@ -406,33 +406,9 @@ window.onload = wrap_img;
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">Failed to start the Kernel. 
-</span>
-<span class="ansi-red-intense-fg ansi-bold">Kernel JavaScript (Node.js) is not usable. Check the Jupyter output tab for more information. 
-</span>
-<span class="ansi-red-intense-fg ansi-bold">View Jupyter &lt;a href=&#39;command:jupyter.viewOutput&#39;&gt;log&lt;/a&gt; for further details.</span></pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
     
 
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="5.-Undefined:-a-variable-without-a-value,-has-the-value-undefined/empty-values">5. Undefined: a variable without a value, has the value undefined/empty values<a class="anchor-link" href="#5.-Undefined:-a-variable-without-a-value,-has-the-value-undefined/empty-values"> </a></h4>
-</div>
-</div>
-</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -559,6 +535,13 @@ false
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Edit/add to the code above so that it outputs "Hello World"</p>
+
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -567,44 +550,19 @@ false
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">const</span> <span class="n">myObjetc</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="p">[</span><span class="n">mySymbo</span><span class="p">]:</span> <span class="s1">&#39;Hello World&#39;</span>
-<span class="p">};</span>
-
-<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">myObjetc</span><span class="p">[</span><span class="n">mySymbo</span><span class="p">]);</span>
+    <span class="p">[</span><span class="n">mySymbo</span><span class="p">]:</span> <span class="s1">&#39;Hello World&#39;</span>
+  <span class="p">};</span>
+  
+  <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">myObjetc</span><span class="p">[</span><span class="n">mySymbo</span><span class="p">]);</span>
 </pre></div>
 
     </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">Failed to start the Kernel. 
-</span>
-<span class="ansi-red-intense-fg ansi-bold">Kernel JavaScript (Node.js) is not usable. Check the Jupyter output tab for more information. 
-</span>
-View Jupyter &lt;a href=&#39;command:jupyter.viewOutput&#39;&gt;log&lt;/a&gt; for further details.</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
     
 
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Edit/add to the code above so that it outputs "Hello World"</p>
-
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="8.-Object:-an-unordered-collection-of-key-value-pairs.-Each-key-value-pair-is-called-a-property.">8. Object: an unordered collection of key-value pairs. Each key-value pair is called a property.<a class="anchor-link" href="#8.-Object:-an-unordered-collection-of-key-value-pairs.-Each-key-value-pair-is-called-a-property."> </a></h4>
@@ -880,6 +838,32 @@ View Jupyter &lt;a href=&#39;command:jupyter.viewOutput&#39;&gt;log&lt;/a&gt; fo
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">let</span> <span class="n">now</span> <span class="o">=</span> <span class="n">new</span> <span class="n">Date</span><span class="p">();</span>
+<span class="n">let</span> <span class="n">hour</span> <span class="o">=</span> <span class="n">now</span><span class="o">.</span><span class="n">getHours</span><span class="p">();</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">hour</span> <span class="o">&lt;</span> <span class="mi">12</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&quot;Good morning!&quot;</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">hour</span> <span class="o">&lt;</span> <span class="mi">18</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&quot;Good afternoon!&quot;</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+  <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&quot;Good evening!&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Functions:">Functions:<a class="anchor-link" href="#Functions:"> </a></h3>
@@ -927,8 +911,74 @@ View Jupyter &lt;a href=&#39;command:jupyter.viewOutput&#39;&gt;log&lt;/a&gt; fo
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1><mark>Extra Credit Word Guessing Game<mark>&lt;/h1&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">//</span> <span class="n">Define</span> <span class="n">an</span> <span class="n">array</span> <span class="n">of</span> <span class="n">words</span> <span class="n">to</span> <span class="n">guess</span>
+<span class="n">var</span> <span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;javascript&quot;</span><span class="p">,</span> <span class="s2">&quot;html&quot;</span><span class="p">,</span> <span class="s2">&quot;css&quot;</span><span class="p">,</span> <span class="s2">&quot;python&quot;</span><span class="p">,</span> <span class="s2">&quot;java&quot;</span><span class="p">,</span> <span class="s2">&quot;ruby&quot;</span><span class="p">];</span>
+
+<span class="o">//</span> <span class="n">Choose</span> <span class="n">a</span> <span class="n">random</span> <span class="n">word</span> <span class="kn">from</span> <span class="nn">the</span> <span class="n">array</span>
+<span class="n">var</span> <span class="n">word</span> <span class="o">=</span> <span class="n">words</span><span class="p">[</span><span class="n">Math</span><span class="o">.</span><span class="n">floor</span><span class="p">(</span><span class="n">Math</span><span class="o">.</span><span class="n">random</span><span class="p">()</span> <span class="o">*</span> <span class="n">words</span><span class="o">.</span><span class="n">length</span><span class="p">)];</span>
+
+<span class="o">//</span> <span class="n">Create</span> <span class="n">an</span> <span class="n">array</span> <span class="n">of</span> <span class="n">underscores</span> <span class="n">to</span> <span class="n">represent</span> <span class="n">each</span> <span class="n">letter</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">word</span>
+<span class="n">var</span> <span class="n">answerArray</span> <span class="o">=</span> <span class="p">[];</span>
+<span class="k">for</span> <span class="p">(</span><span class="n">var</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">word</span><span class="o">.</span><span class="n">length</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+	<span class="n">answerArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;_&quot;</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="o">//</span> <span class="n">Display</span> <span class="n">the</span> <span class="n">initial</span> <span class="n">state</span> <span class="n">of</span> <span class="n">the</span> <span class="n">word</span>
+<span class="n">document</span><span class="o">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">&quot;feedback&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">innerHTML</span> <span class="o">=</span> <span class="n">answerArray</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">);</span>
+
+<span class="o">//</span> <span class="n">Function</span> <span class="n">to</span> <span class="n">check</span> <span class="n">the</span> <span class="n">user</span><span class="s1">&#39;s guess</span>
+<span class="n">function</span> <span class="n">checkGuess</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">var</span> <span class="n">guess</span> <span class="o">=</span> <span class="n">document</span><span class="o">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">&quot;guess&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">toLowerCase</span><span class="p">();</span>
+	<span class="n">var</span> <span class="n">correctGuess</span> <span class="o">=</span> <span class="n">false</span><span class="p">;</span>
+
+	<span class="o">//</span> <span class="n">Check</span> <span class="k">if</span> <span class="n">the</span> <span class="n">guess</span> <span class="ow">is</span> <span class="n">correct</span>
+	<span class="k">for</span> <span class="p">(</span><span class="n">var</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">word</span><span class="o">.</span><span class="n">length</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">guess</span> <span class="o">===</span> <span class="n">word</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="p">{</span>
+			<span class="n">answerArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">guess</span><span class="p">;</span>
+			<span class="n">correctGuess</span> <span class="o">=</span> <span class="n">true</span><span class="p">;</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="o">//</span> <span class="n">Update</span> <span class="n">the</span> <span class="n">display</span>
+	<span class="n">document</span><span class="o">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">&quot;feedback&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">innerHTML</span> <span class="o">=</span> <span class="n">answerArray</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">);</span>
+
+	<span class="o">//</span> <span class="n">Check</span> <span class="k">if</span> <span class="n">the</span> <span class="n">game</span> <span class="ow">is</span> <span class="n">over</span>
+	<span class="k">if</span> <span class="p">(</span><span class="o">!</span>answerArray.includes<span class="o">(</span><span class="s2">&quot;_&quot;</span><span class="o">))</span> <span class="o">{</span>
+		<span class="n">document</span><span class="o">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">&quot;feedback&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">innerHTML</span> <span class="o">=</span> <span class="s2">&quot;You win!&quot;</span><span class="p">;</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="o">!</span>correctGuess<span class="o">)</span> <span class="o">{</span>
+		<span class="n">document</span><span class="o">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">&quot;feedback&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">innerHTML</span> <span class="o">=</span> <span class="s2">&quot;Wrong guess, try again.&quot;</span><span class="p">;</span>
+	<span class="p">}</span>
+
+	<span class="o">//</span> <span class="n">Clear</span> <span class="n">the</span> <span class="n">guess</span> <span class="nb">input</span>
+	<span class="n">document</span><span class="o">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">&quot;guess&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
 </div>
 
+</div>
+    
+
+&lt;/div&gt;
+ 
+
+</mark></mark></h1></div></div></div></div>
 
 
   </div><a class="u-url" href="/Sreeja-Gangapuram/2023/04/28/JSlesson.html" hidden></a>
