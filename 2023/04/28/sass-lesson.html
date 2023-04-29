@@ -690,40 +690,62 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>@mixin responsive-text {
-  font-size: 16px;
-  @media (min-width: 768px) {
-    font-size: 20px;
-  }
-  @media (min-width: 1024px) {
-    font-size: 24px;
-  }
-}</p>
-<p>.testResponsiveText {
-  @include responsive-text;
-}</p>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nd">@mixin</span> <span class="n">responsive</span><span class="o">-</span><span class="n">text</span> <span class="p">{</span>
+  <span class="n">font</span><span class="o">-</span><span class="n">size</span><span class="p">:</span> <span class="mi">16</span><span class="n">px</span><span class="p">;</span>
+  <span class="nd">@media</span> <span class="p">(</span><span class="nb">min</span><span class="o">-</span><span class="n">width</span><span class="p">:</span> <span class="mi">768</span><span class="n">px</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">font</span><span class="o">-</span><span class="n">size</span><span class="p">:</span> <span class="mi">20</span><span class="n">px</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="nd">@media</span> <span class="p">(</span><span class="nb">min</span><span class="o">-</span><span class="n">width</span><span class="p">:</span> <span class="mi">1024</span><span class="n">px</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">font</span><span class="o">-</span><span class="n">size</span><span class="p">:</span> <span class="mi">24</span><span class="n">px</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="o">.</span><span class="n">testResponsiveText</span> <span class="p">{</span>
+  <span class="nd">@include</span> <span class="n">responsive</span><span class="o">-</span><span class="n">text</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
 
 </div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nd">@mixin</span> <span class="n">color</span><span class="o">-</span><span class="n">text</span> <span class="p">{</span>
+  <span class="n">color</span><span class="p">:</span> <span class="n">red</span><span class="p">;</span>
+  <span class="n">font</span><span class="o">-</span><span class="n">size</span><span class="p">:</span> <span class="mi">25</span><span class="n">px</span><span class="p">;</span>
+  <span class="n">font</span><span class="o">-</span><span class="n">weight</span><span class="p">:</span> <span class="n">bold</span><span class="p">;</span>
+  <span class="n">border</span><span class="p">:</span> <span class="mi">1</span><span class="n">px</span> <span class="n">solid</span> <span class="n">blue</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="o">.</span><span class="n">danger</span> <span class="p">{</span>
+  <span class="nd">@include</span> <span class="n">color</span><span class="o">-</span><span class="n">text</span><span class="p">;</span>
+  <span class="n">background</span><span class="o">-</span><span class="n">color</span><span class="p">:</span> <span class="n">green</span><span class="p">;</span>
+<span class="p">}</span>                  
+</pre></div>
+
+    </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>@mixin color-text {
-  color: red;
-  font-size: 25px;
-  font-weight: bold;
-  border: 1px solid blue;
-}</p>
-<p>.danger {
-  @include color-text;
-  background-color: green;
-}</p>
 
 </div>
-</div>
-</div>
+    
+
 </div>
 
 
